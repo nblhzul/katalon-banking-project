@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Questions" time="67.083" tests="2" failures="0" errors="0">
+   <testsuite name="Questions" tests="2" failures="0" errors="0" time="67.083" skipped="0" timestamp="2023-06-06 19:13:42" hostname="nabilahzulkifli - nabilahs-air" id="Test Suites/Questions">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/nabilahzulkifli/SEB_Assessment_Nabilah/SEB Assessment/Reports/20230606_191336/Questions/20230606_191337"/>
+         <property name="logFiles" value="/Users/nabilahzulkifli/SEB_Assessment_Nabilah/SEB Assessment/Reports/20230606_191336/Questions/20230606_191337/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nabilahzulkifli - nabilahs-air"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.8"/>
+         <property name="sessionId" value="09981528d3e2e1a5dd674adfec8613f5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Question1" time="39.242" classname="Test Cases/Question1" status="PASSED">
+         <system-out><![CDATA[2023-06-06 19:13:43 - [TEST_CASE][PASSED] - Test Cases/Question1: Test Cases/Question1
+
+2023-06-06 19:13:43 - [TEST_STEP][PASSED] - managerActions.ManagerActions.createCustomer(): managerActions.ManagerActions.createCustomer is PASSED
+
+2023-06-06 19:13:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-06 19:13:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-06 19:13:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login'
+
+2023-06-06 19:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/btn_manager_login' is clicked on
+
+2023-06-06 19:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/btn_add_customer' is clicked on
+
+2023-06-06 19:13:53 - [MESSAGE][PASSED] - Text 'Christopher' is set on object 'Object Repository/Add Customer Page/input_firstname'
+
+2023-06-06 19:13:54 - [MESSAGE][PASSED] - Text 'Connely' is set on object 'Object Repository/Add Customer Page/input_lastname'
+
+2023-06-06 19:13:55 - [MESSAGE][PASSED] - Text 'L789C349' is set on object 'Object Repository/Add Customer Page/input_postcode'
+
+2023-06-06 19:13:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Customer Page/btn_submit' is clicked on
+
+2023-06-06 19:13:56 - [MESSAGE][PASSED] - Text 'Frank' is set on object 'Object Repository/Add Customer Page/input_firstname'
+
+2023-06-06 19:13:57 - [MESSAGE][PASSED] - Text 'Christopher' is set on object 'Object Repository/Add Customer Page/input_lastname'
+
+2023-06-06 19:13:57 - [MESSAGE][PASSED] - Text 'A897N450' is set on object 'Object Repository/Add Customer Page/input_postcode'
+
+2023-06-06 19:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Customer Page/btn_submit' is clicked on
+
+2023-06-06 19:13:58 - [MESSAGE][PASSED] - Text 'Christopher' is set on object 'Object Repository/Add Customer Page/input_firstname'
+
+2023-06-06 19:13:59 - [MESSAGE][PASSED] - Text 'Minka' is set on object 'Object Repository/Add Customer Page/input_lastname'
+
+2023-06-06 19:14:00 - [MESSAGE][PASSED] - Text 'M098Q585' is set on object 'Object Repository/Add Customer Page/input_postcode'
+
+2023-06-06 19:14:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Customer Page/btn_submit' is clicked on
+
+2023-06-06 19:14:01 - [MESSAGE][PASSED] - Text 'Connely' is set on object 'Object Repository/Add Customer Page/input_firstname'
+
+2023-06-06 19:14:01 - [MESSAGE][PASSED] - Text 'Jackson' is set on object 'Object Repository/Add Customer Page/input_lastname'
+
+2023-06-06 19:14:02 - [MESSAGE][PASSED] - Text 'L789C349' is set on object 'Object Repository/Add Customer Page/input_postcode'
+
+2023-06-06 19:14:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Customer Page/btn_submit' is clicked on
+
+2023-06-06 19:14:03 - [MESSAGE][PASSED] - Text 'Jackson' is set on object 'Object Repository/Add Customer Page/input_firstname'
+
+2023-06-06 19:14:04 - [MESSAGE][PASSED] - Text 'Frank' is set on object 'Object Repository/Add Customer Page/input_lastname'
+
+2023-06-06 19:14:04 - [MESSAGE][PASSED] - Text 'L789C349' is set on object 'Object Repository/Add Customer Page/input_postcode'
+
+2023-06-06 19:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Customer Page/btn_submit' is clicked on
+
+2023-06-06 19:14:05 - [MESSAGE][PASSED] - Text 'Minka' is set on object 'Object Repository/Add Customer Page/input_firstname'
+
+2023-06-06 19:14:06 - [MESSAGE][PASSED] - Text 'Jackson' is set on object 'Object Repository/Add Customer Page/input_lastname'
+
+2023-06-06 19:14:06 - [MESSAGE][PASSED] - Text 'A897N450' is set on object 'Object Repository/Add Customer Page/input_postcode'
+
+2023-06-06 19:14:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Customer Page/btn_submit' is clicked on
+
+2023-06-06 19:14:07 - [MESSAGE][PASSED] - Text 'Jackson' is set on object 'Object Repository/Add Customer Page/input_firstname'
+
+2023-06-06 19:14:08 - [MESSAGE][PASSED] - Text 'Connely' is set on object 'Object Repository/Add Customer Page/input_lastname'
+
+2023-06-06 19:14:09 - [MESSAGE][PASSED] - Text 'L789C349' is set on object 'Object Repository/Add Customer Page/input_postcode'
+
+2023-06-06 19:14:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Customer Page/btn_submit' is clicked on
+
+2023-06-06 19:14:09 - [MESSAGE][PASSED] - managerActions.ManagerActions.createCustomer is PASSED
+
+2023-06-06 19:14:09 - [TEST_STEP][PASSED] - managerActions.ManagerActions.validateAddedCustomers(): managerActions.ManagerActions.validateAddedCustomers is PASSED
+
+2023-06-06 19:14:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Customer Page/btn_customers' is clicked on
+
+2023-06-06 19:14:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-06-06 19:14:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_first_name' is: 'Christopher'
+
+2023-06-06 19:14:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_last_name' is: 'Connely'
+
+2023-06-06 19:14:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_postcode' is: 'L789C349'
+
+2023-06-06 19:14:15 - [MESSAGE][PASSED] - Actual text 'Christopher' and expected text 'Christopher' are matched 
+
+2023-06-06 19:14:15 - [MESSAGE][PASSED] - Actual text 'Connely' and expected text 'Connely' are matched 
+
+2023-06-06 19:14:15 - [MESSAGE][PASSED] - Actual text 'L789C349' and expected text 'L789C349' are matched 
+
+2023-06-06 19:14:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_first_name' is: 'Frank'
+
+2023-06-06 19:14:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_last_name' is: 'Christopher'
+
+2023-06-06 19:14:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_postcode' is: 'A897N450'
+
+2023-06-06 19:14:16 - [MESSAGE][PASSED] - Actual text 'Frank' and expected text 'Frank' are matched 
+
+2023-06-06 19:14:16 - [MESSAGE][PASSED] - Actual text 'Christopher' and expected text 'Christopher' are matched 
+
+2023-06-06 19:14:16 - [MESSAGE][PASSED] - Actual text 'A897N450' and expected text 'A897N450' are matched 
+
+2023-06-06 19:14:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_first_name' is: 'Christopher'
+
+2023-06-06 19:14:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_last_name' is: 'Minka'
+
+2023-06-06 19:14:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_postcode' is: 'M098Q585'
+
+2023-06-06 19:14:17 - [MESSAGE][PASSED] - Actual text 'Christopher' and expected text 'Christopher' are matched 
+
+2023-06-06 19:14:17 - [MESSAGE][PASSED] - Actual text 'Minka' and expected text 'Minka' are matched 
+
+2023-06-06 19:14:17 - [MESSAGE][PASSED] - Actual text 'M098Q585' and expected text 'M098Q585' are matched 
+
+2023-06-06 19:14:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_first_name' is: 'Connely'
+
+2023-06-06 19:14:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_last_name' is: 'Jackson'
+
+2023-06-06 19:14:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_postcode' is: 'L789C349'
+
+2023-06-06 19:14:18 - [MESSAGE][PASSED] - Actual text 'Connely' and expected text 'Connely' are matched 
+
+2023-06-06 19:14:18 - [MESSAGE][PASSED] - Actual text 'Jackson' and expected text 'Jackson' are matched 
+
+2023-06-06 19:14:18 - [MESSAGE][PASSED] - Actual text 'L789C349' and expected text 'L789C349' are matched 
+
+2023-06-06 19:14:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_first_name' is: 'Jackson'
+
+2023-06-06 19:14:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_last_name' is: 'Frank'
+
+2023-06-06 19:14:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_postcode' is: 'L789C349'
+
+2023-06-06 19:14:19 - [MESSAGE][PASSED] - Actual text 'Jackson' and expected text 'Jackson' are matched 
+
+2023-06-06 19:14:19 - [MESSAGE][PASSED] - Actual text 'Frank' and expected text 'Frank' are matched 
+
+2023-06-06 19:14:19 - [MESSAGE][PASSED] - Actual text 'L789C349' and expected text 'L789C349' are matched 
+
+2023-06-06 19:14:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_first_name' is: 'Minka'
+
+2023-06-06 19:14:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_last_name' is: 'Jackson'
+
+2023-06-06 19:14:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_postcode' is: 'A897N450'
+
+2023-06-06 19:14:20 - [MESSAGE][PASSED] - Actual text 'Minka' and expected text 'Minka' are matched 
+
+2023-06-06 19:14:20 - [MESSAGE][PASSED] - Actual text 'Jackson' and expected text 'Jackson' are matched 
+
+2023-06-06 19:14:20 - [MESSAGE][PASSED] - Actual text 'A897N450' and expected text 'A897N450' are matched 
+
+2023-06-06 19:14:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_first_name' is: 'Jackson'
+
+2023-06-06 19:14:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_last_name' is: 'Connely'
+
+2023-06-06 19:14:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Customers Page/label_postcode' is: 'L789C349'
+
+2023-06-06 19:14:21 - [MESSAGE][PASSED] - Actual text 'Jackson' and expected text 'Jackson' are matched 
+
+2023-06-06 19:14:21 - [MESSAGE][PASSED] - Actual text 'Connely' and expected text 'Connely' are matched 
+
+2023-06-06 19:14:21 - [MESSAGE][PASSED] - Actual text 'L789C349' and expected text 'L789C349' are matched 
+
+2023-06-06 19:14:21 - [MESSAGE][PASSED] - managerActions.ManagerActions.validateAddedCustomers is PASSED
+
+2023-06-06 19:14:21 - [TEST_STEP][PASSED] - managerActions.ManagerActions.deleteCustomer(): managerActions.ManagerActions.deleteCustomer is PASSED
+
+2023-06-06 19:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Customers Page/btn_delete' is clicked on
+
+2023-06-06 19:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Customers Page/btn_delete' is clicked on
+
+2023-06-06 19:14:22 - [MESSAGE][PASSED] - managerActions.ManagerActions.deleteCustomer is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Question2" time="27.467" classname="Test Cases/Question2" status="PASSED">
+         <system-out><![CDATA[2023-06-06 19:14:22 - [TEST_CASE][PASSED] - Test Cases/Question2: Test Cases/Question2
+
+2023-06-06 19:14:22 - [TEST_STEP][PASSED] - customerActions.CustomerActions.loginCustomer("third account"): customerActions.CustomerActions.loginCustomer is PASSED
+
+2023-06-06 19:14:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-06-06 19:14:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-06 19:14:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-06 19:14:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login'
+
+2023-06-06 19:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/btn_customer_login' is clicked on
+
+2023-06-06 19:14:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/dropdown_name' is clicked on
+
+2023-06-06 19:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/option_by_text' is clicked on
+
+2023-06-06 19:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Customer Page/btn_submit' is clicked on
+
+2023-06-06 19:14:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions Page/label_welcome_customer' is: 'Welcome Hermoine Granger !!'
+
+2023-06-06 19:14:29 - [MESSAGE][PASSED] - Actual text 'Welcome Hermoine Granger !!' and expected text 'Welcome Hermoine Granger !!' are matched 
+
+2023-06-06 19:14:29 - [MESSAGE][PASSED] - customerActions.CustomerActions.loginCustomer is PASSED
+
+2023-06-06 19:14:29 - [TEST_STEP][PASSED] - customerActions.CustomerActions.customerTransaction("third account"): customerActions.CustomerActions.customerTransaction is PASSED
+
+2023-06-06 19:14:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions Page/dropdown_account_number' is clicked on
+
+2023-06-06 19:14:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/option_by_text' is clicked on
+
+2023-06-06 19:14:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions Page/label_balance' is: '0'
+
+2023-06-06 19:14:31 - [MESSAGE][PASSED] - Actual text '0' and expected text '0' are matched 
+
+2023-06-06 19:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions Page/btn_withdrawal' is clicked on
+
+2023-06-06 19:14:32 - [MESSAGE][PASSED] - Text '50000' is set on object 'Object Repository/Transactions Page/input_amount'
+
+2023-06-06 19:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Customer Page/btn_submit' is clicked on
+
+2023-06-06 19:14:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-06 19:14:33 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/option_by_text' is present
+
+2023-06-06 19:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions Page/btn_deposit' is clicked on
+
+2023-06-06 19:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions Page/btn_withdrawal' is clicked on
+
+2023-06-06 19:14:35 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/Transactions Page/input_amount'
+
+2023-06-06 19:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Customer Page/btn_submit' is clicked on
+
+2023-06-06 19:14:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions Page/label_balance' is: '0'
+
+2023-06-06 19:14:36 - [MESSAGE][PASSED] - Actual text '0' and expected text '0' are matched 
+
+2023-06-06 19:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions Page/btn_deposit' is clicked on
+
+2023-06-06 19:14:37 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/Transactions Page/input_amount'
+
+2023-06-06 19:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Customer Page/btn_submit' is clicked on
+
+2023-06-06 19:14:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-06 19:14:38 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/option_by_text' is present
+
+2023-06-06 19:14:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions Page/label_balance' is: '3000'
+
+2023-06-06 19:14:38 - [MESSAGE][PASSED] - Actual text '3000' and expected text '3000' are matched 
+
+2023-06-06 19:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions Page/btn_deposit' is clicked on
+
+2023-06-06 19:14:39 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/Transactions Page/input_amount'
+
+2023-06-06 19:14:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Customer Page/btn_submit' is clicked on
+
+2023-06-06 19:14:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-06 19:14:40 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/option_by_text' is present
+
+2023-06-06 19:14:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions Page/label_balance' is: '5000'
+
+2023-06-06 19:14:40 - [MESSAGE][PASSED] - Actual text '5000' and expected text '5000' are matched 
+
+2023-06-06 19:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions Page/btn_withdrawal' is clicked on
+
+2023-06-06 19:14:41 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/Transactions Page/input_amount'
+
+2023-06-06 19:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Customer Page/btn_submit' is clicked on
+
+2023-06-06 19:14:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-06 19:14:42 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/option_by_text' is present
+
+2023-06-06 19:14:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions Page/label_balance' is: '0'
+
+2023-06-06 19:14:43 - [MESSAGE][PASSED] - Actual text '0' and expected text '0' are matched 
+
+2023-06-06 19:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions Page/btn_deposit' is clicked on
+
+2023-06-06 19:14:44 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/Transactions Page/input_amount'
+
+2023-06-06 19:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Customer Page/btn_submit' is clicked on
+
+2023-06-06 19:14:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-06 19:14:45 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/option_by_text' is present
+
+2023-06-06 19:14:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions Page/label_balance' is: '10000'
+
+2023-06-06 19:14:45 - [MESSAGE][PASSED] - Actual text '10000' and expected text '10000' are matched 
+
+2023-06-06 19:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions Page/btn_deposit' is clicked on
+
+2023-06-06 19:14:46 - [MESSAGE][PASSED] - Text '15000' is set on object 'Object Repository/Transactions Page/input_amount'
+
+2023-06-06 19:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Customer Page/btn_submit' is clicked on
+
+2023-06-06 19:14:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-06 19:14:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/option_by_text' is present
+
+2023-06-06 19:14:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions Page/label_balance' is: '25000'
+
+2023-06-06 19:14:47 - [MESSAGE][PASSED] - Actual text '25000' and expected text '25000' are matched 
+
+2023-06-06 19:14:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions Page/btn_withdrawal' is clicked on
+
+2023-06-06 19:14:48 - [MESSAGE][PASSED] - Text '1500' is set on object 'Object Repository/Transactions Page/input_amount'
+
+2023-06-06 19:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Customer Page/btn_submit' is clicked on
+
+2023-06-06 19:14:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-06 19:14:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/option_by_text' is present
+
+2023-06-06 19:14:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions Page/label_balance' is: '23500'
+
+2023-06-06 19:14:49 - [MESSAGE][PASSED] - Actual text '23500' and expected text '23500' are matched 
+
+2023-06-06 19:14:49 - [MESSAGE][PASSED] - customerActions.CustomerActions.customerTransaction is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-06 19:13:42 - [TEST_SUITE][PASSED] - Questions: Test Cases/Question2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Questions,Chrome 114.0.0.0,,,2023-06-06 19:13:42,2023-06-06 19:14:49,1m - 7.083s,PASSED
+,,,,,,,
+Test Cases/Question1,Chrome 114.0.0.0,,,2023-06-06 19:13:43,2023-06-06 19:14:22,39.242s,PASSED
+managerActions.ManagerActions.createCustomer(),Chrome 114.0.0.0,,,2023-06-06 19:13:43,2023-06-06 19:14:09,25.834s,PASSED
+managerActions.ManagerActions.validateAddedCustomers(),Chrome 114.0.0.0,,,2023-06-06 19:14:09,2023-06-06 19:14:21,12.080s,PASSED
+managerActions.ManagerActions.deleteCustomer(),Chrome 114.0.0.0,,,2023-06-06 19:14:21,2023-06-06 19:14:22,0.834s,PASSED
+,,,,,,,
+Test Cases/Question2,Chrome 114.0.0.0,,,2023-06-06 19:14:22,2023-06-06 19:14:49,27.467s,PASSED
+"customerActions.CustomerActions.loginCustomer(""third account"")",Chrome 114.0.0.0,,,2023-06-06 19:14:22,2023-06-06 19:14:29,7.284s,PASSED
+"customerActions.CustomerActions.customerTransaction(""third account"")",Chrome 114.0.0.0,,,2023-06-06 19:14:29,2023-06-06 19:14:49,20.031s,PASSED
